@@ -1,0 +1,128 @@
+nav,
+.companyName,
+.links,
+.subscribe,
+.indeed,
+.masthead,
+.startExploring,
+.link-buttons {
+  display: flex;
+  background: #0828cc;
+  color: white;
+  font-family: "aktiv-grotesk", sans-serif;
+}
+body {
+  background: #0828cc;
+}
+nav {
+  width: 100vw;
+  height: 13vh;
+}
+.logo {
+  width: 5vw;
+  height: 5vh;
+  position: absolute;
+}
+.companyName {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  justify-content: center;
+  align-items: center;
+  line-height: 0em;
+  padding: none;
+}
+.links {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.rightNav {
+  display: flex;
+  margin-left: 5vw;
+  flex-direction: row;
+  wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.masthead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 35vw;
+  margin: auto;
+  line-height: 3em;
+  font-size: 16px;
+}
+h1 {
+  font-size: 70px;
+  width: 68vw;
+  display: block;
+}
+.startExploring {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 35vw;
+  margin: auto;
+}
+.subscribe {
+  display: block;
+  height: 35px;
+  width: 7vw;
+  margin-right: 2vw;
+  border-radius: 45px;
+  background: white;
+  align-items: center;
+  color: #0828cc;
+  cursor: pointer;
+}
+.subscribe:hover {
+  background: #0828cc;
+  color: white;
+}
+.start-exploring-button {
+  height: 45px;
+  width: 10vw;
+  border-radius: 45px;
+  color: #0828cc;
+  cursor: pointer;
+}
+.start-exploring-button:hover {
+  background: #0828cc;
+  color: white;
+}
+.link-buttons {
+  display: flex;
+  flex-direction: column;
+  wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: center;
+  height: 30vh;
+  bottom: 5px;
+  right: 5px;
+}
+.social-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 45px;
+  background: #0828cc;
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+}
+.social-button:hover {
+  background: white;
+  color: #0828cc;
+}
