@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 nav,
 .companyName,
 .links,
@@ -7,12 +10,12 @@ nav,
 .startExploring,
 .link-buttons {
   display: flex;
-  background: #0828cc;
+
   color: white;
   font-family: "aktiv-grotesk", sans-serif;
 }
 body {
-  background: #0828cc;
+  background: url("./img/background.png") no-repeat center center;
 }
 nav {
   width: 100vw;
@@ -103,6 +106,7 @@ h1 {
   color: white;
 }
 .link-buttons {
+  position: absolute;
   display: flex;
   flex-direction: column;
   wrap: nowrap;
@@ -132,4 +136,7 @@ h1 {
   margin: auto;
   padding: auto;
   border-radius: 5px;
+  color: #0828cc;
+  font-size: 10px;
+  text-align: center;
 }
