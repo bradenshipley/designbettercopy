@@ -126,3 +126,10 @@ h1 {
   background: white;
   color: #0828cc;
 }
+.indeed {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  padding: auto;
+  border-radius: 5px;
+}
